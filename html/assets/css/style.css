@@ -24,7 +24,10 @@ html, body {
 
 #mainContainer {
 	height: 100%;
-	width: 100%;
+	width: 90%;
+	margin: 0 auto;
+	box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.24);
+
 }
 
 #mainContent {
@@ -52,14 +55,14 @@ html, body {
     height: 100%;
     background-color: #000000;
     display: flex;
-    right: 0;
+    right: 15;
     position: absolute;
     top: 0;
     align-items: center;
     margin: 0 -10px;
 }
 
-.socialMedia img {
+#socialMediaBar .socialMedia img {
 	width: 25px;
 	height: 25px;
 	margin-right: 20;
@@ -73,6 +76,7 @@ html, body {
     position: relative;
     background-color: #000000;
     width: 100%;
+    text-align: center;
 }
 
 #logoContainer img {
@@ -102,7 +106,7 @@ html, body {
 }
 
 #navBar ul {
-	margin-left: 150;
+	margin-left: 90;
 }
 
 #navBar img {
