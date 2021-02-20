@@ -1,0 +1,53 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+
+* {
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	color: #fff;
+}
+
+#topContainer {
+	width: 100%;
+	top: 0;
+	position: fixed;
+	min-width: 620px;
+	background-color: #282828;
+	height: 60px;
+
+}
+
+
+#titleBar {
+    display: flex;
+    height: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: left;
+    left: 0;
+    width: 50%;
+}
+
+#titleBar span {
+    width: 50%;
+    height: 100%;
+    padding: 15;
+}
+
+#socialMediaBar {
+    height: 100%;
+    background-color: #282828;
+    display: flex;
+    right: 0;
+    position: absolute;
+    width: 50%;
+    padding: 0;
+    top: 0;
+    align-items: center;
+}
+
+.socialMedia {
+	width: 50px;
+}
