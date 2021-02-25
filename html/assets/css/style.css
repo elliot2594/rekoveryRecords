@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+	background: #daa520;
+	margin: 0;
+	font-family: 'Poppins';
+	color: white;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem;
+	background-color: #008000;
+	text-align: center;
+}
+
+.socials {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.header img {
+	height: 2rem;
+	width: 2rem;
+	margin-left: 0.5em;
+}
+
+.logoContainer img{
+	width: 11.1rem;
+	height: 9.5rem;
+	padding: 0.5rem
+
+}
+
+.logoContainer {
+	display: flex;
+	justify-content: center;
+}
+
+.navBar {
+	display: flex;
+	justify-content: space-between;
+}
+
+.navBar img {
+	height: 2rem;
+	width: 2rem;
+}
+
+.primaryNav {
+	text-decoration: none;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+	padding: 0.1rem;
+	flex-direction: column;
+}
+.socials {
+	border-top: 0.01rem solid white;
+}
+
+.navBar nav {
+	display: none;
+}
+
+#mobileCta {
+	margin-right: 0.5rem;
+	margin-left: auto;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.hero .container {
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+}
+
+.leftCol,
+.midCol,
+.rightCol {
+	border: 0.2rem solid;
+    margin: 0.5rem;
+    height: 10rem;
+    text-align: center;
+}
+
+.navBar {
+	background-color: red;
+	margin-top: 0.5rem;
+	height: 2rem;
+	padding: 0.2rem;
+	border-top: 0.1rem solid;
+	border-bottom: 0.1rem solid;
+	box-shadow: 0.1rem 0.5rem 0.9rem #bf8282;
+   	margin-bottom: 1rem;
+}
+}
+
+
+}
+
+
+
+
