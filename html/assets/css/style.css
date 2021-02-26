@@ -1,14 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-body {
-	background: #EBDF1E;
-	margin: 0;
-	font-family: 'Poppins';
-	color: white;
+@media only screen and (min-width: 600px) {
+
+	.leftCol,
+	.midCol,
+	.rightCol {
+	border: 0.2rem solid;
+	margin: 0.5rem;
+	height: 20rem;
+	text-align: center;
+	width: 20rem;
+	}
+
+	body {
 	margin-right: 5rem;
 	border-left: 0.5rem solid;
 	border-right: 0.5rem solid;
 	margin-left: 5rem;
+	}
+
+}
+
+body {
+	background: #EBDF1E;
+	font-family: 'Poppins';
+	color: white;
+	height: 100%;
+	margin-bottom: 0;
+	margin-top: 0;
 }
 
 .header {
@@ -38,7 +57,7 @@ body {
 	border-top: 0.1rem solid;
 	border-bottom: 0.1rem solid;
 	box-shadow: 0.1rem 0.5rem 0.9rem #bf8282;
-   	margin-bottom: 1rem;
+	margin-bottom: 1rem;
 }
 
 .footer {
@@ -48,17 +67,12 @@ body {
 	background-color: #8AD437;
 }
 
-.leftCol,
-.midCol,
-.rightCol {
-	border: 0.2rem solid;
-    margin: 0.5rem;
-    height: 10rem;
-    text-align: center;
-}
 
-.hero {
+
+
+.hero .container {
 	display: flex;
+	justify-content: space-around;
 }
 
 .logoContainer img{
@@ -91,39 +105,45 @@ nav ul {
 }
 
 @media only screen and (max-width: 600px) {
-  .header {
-	padding: 0.1rem;
-	flex-direction: column;
-}
-.socials {
-	border-top: 0.01rem solid white;
-}
+	body {
+		margin: 0;
+	}
 
-.navBar nav {
-	display: none;
-}
 
-#mobileCta {
-	margin-right: 0.5rem;
-	margin-left: auto;
-    height: 1.5rem;
-    width: 1.5rem;
-}
+	.header {
+		padding: 0.1rem;
+		flex-direction: column;
+	}
 
-.hero .container {
-	display: flex;
-	flex-direction: column;
-	align-self: center;
-}
+	.socials {
+		border-top: 0.01rem solid white;
+	}
 
-.leftCol,
-.midCol,
-.rightCol {
-	border: 0.2rem solid;
-    margin: 0.5rem;
-    height: 10rem;
-    text-align: center;
-}
+	.navBar nav {
+		display: none;
+	}
+
+	#mobileCta {
+		margin-right: 0.5rem;
+		margin-left: auto;
+		height: 1.5rem;
+		width: 1.5rem;
+	}
+
+	.hero .container {
+		display: flex;
+		flex-direction: column;
+		align-self: center;
+	}
+
+	.leftCol,
+	.midCol,
+	.rightCol {
+		border: 0.2rem solid;
+		margin: 0.5rem;
+		height: 10rem;
+		text-align: center;
+	}
 
 }
 
