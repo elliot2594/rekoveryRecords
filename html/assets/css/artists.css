@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+html,
+body {
+	margin: 0;
+	font-family: 'Patua One', cursive;
+	color: white;
+	width: 100vw;
+	height: 100vh;
+	background-color: #1A221A;
+}
+
+a {
+	color: white;
+}
+
+.navBar {
+	background-color: #54552b;
+	border-bottom: 0.01rem solid;
+	box-shadow: 0.1rem 0.5rem 0.3rem #3E523E;
+	margin-bottom: 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navBar img {
+	height: 2rem;
+	width: 2rem;
+	margin-right: 0.25rem;
+	margin-left: 0.25rem;
+}
+
+.hero .container {
+	height: 65vh;
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+}
+
+.footer .container {
+	display: flex;
+	align-items: center;
+}
+
+
+@media only screen and (min-width: 600px) {
+
+.hero {
+		display: block;
+	}
+
+.hero .container {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 5rem;
+	flex-wrap: wrap;
+	margin-top: 5rem;
+
+}
+
+.secondaryNav ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+
+.secondaryNav ul li {
+	margin-right: 1rem;
+}
+
+.mobileMenu {
+	display: none;
+}
+
+.primaryNav {
+	display: none;
+}
+
+.latestMedia .container {
+	display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+}
