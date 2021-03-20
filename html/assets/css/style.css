@@ -11,6 +11,7 @@ body {
 
 .paralax {
 	background-image: url("../images/logo.png");
+	
 
 	  /* Set a specific height */
 	  min-height: 90vh; 
@@ -19,8 +20,12 @@ body {
 	  background-attachment: fixed;
 	  background-position: center;
 	  background-repeat: no-repeat;
-	  background-size: cover;
+	  background-size: contain;
 	  opacity: 0.90;
+	  background-color: #000000;
+	  
+	  
+	
 }
 
 .wrapper {
