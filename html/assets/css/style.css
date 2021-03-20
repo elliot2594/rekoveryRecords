@@ -48,6 +48,10 @@ body {
 	margin-left: 0.25rem;
 }
 
+.primaryNav {
+	display: none;
+}
+
 #mobileExit {
 	display: none;
 }
@@ -58,20 +62,8 @@ body {
 }
 
 .primaryNav {
-	text-decoration: none;
-	list-style: none;
-	width: 40vw;
-	height: 100vh;
-	background-color: #181818;
-	margin-left: 0;
-	margin-right: auto;
-	margin-top: 0;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-evenly;
-	opacity: 0.96;
-	position: fixed;
-	display: none;
+	
+
 }
 
 .secondaryNav {
@@ -181,23 +173,27 @@ a {
 	flex-wrap: wrap;
 }
 
-.secondaryNav ul {
-	list-style: none;
+.secondaryNav  {
+	display: none;
+}
+
+.primaryNav  {
 	display: flex;
 	justify-content: space-around;
 }
 
-.secondaryNav ul li {
-	margin-right: 1rem;
+.primaryNav a {
+	margin-left: 1rem;
 }
 
 .mobileMenu {
 	display: none;
 }
 
-.primaryNav {
+.navBar .icon {
 	display: none;
 }
+
 
 .latestMedia .container {
 	display: flex;
