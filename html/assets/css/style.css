@@ -19,28 +19,7 @@ body {
 	 background-color: #000000;  
 }
 
-	.section {
-  height: 90vh;
-}
 
-.bg1::after {
-	background-image: url("../images/logo.png");
-
-}
-
-.paralax::after {
-  content: " ";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  transform: translateZ(-1px) scale(1.5);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  z-index: -1;
-}
 
 .content {
 	background-color: #1A221A;
@@ -209,6 +188,28 @@ a {
 	display: none;
 }
 
+	.section {
+  height: 90vh;
+}
+
+.bg1::after {
+	background-image: url("../images/logo.png");
+
+}
+
+.paralax::after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateZ(-1px) scale(1.5);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
 
 .latestMedia .container {
 	display: flex;
