@@ -138,6 +138,11 @@ a {
 
 }
 
+.comingSoon {
+	height: 98vh;
+	text-align: center;
+}
+
 .hero .container {
 	margin-top: 2.5rem;
 	margin-bottom: 2.5rem;
