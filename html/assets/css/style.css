@@ -39,7 +39,8 @@ body {
 	justify-content: space-between;
 	align-items: center;
 	padding: 0.25rem;
-	p
+	position: sticky;
+  top: 0;
 }
 
 .navBar img {
