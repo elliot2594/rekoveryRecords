@@ -42,6 +42,11 @@ body {
 	position: sticky;
   top: 0;
 }
+.artistBio {
+	text-align: center;
+	width: 80%;
+	margin: auto;
+}
 
 .navBar img {
 	height: 1.5rem;
