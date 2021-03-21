@@ -18,7 +18,7 @@
 		<nav class="primaryNav">
 				<a href="#home" class="current">Home</a>
 				<a href="shows.html">Shows</a>
-				<a href="artists.html">Artists</a>
+				<a href="javascript:void(0);" class="artistMenu" onclick="myFunctionA()">Artists</a>
 				<a href="">Media</a>
 				<a href="">Press</a>
 				<a href="">Contact</a>
@@ -42,6 +42,12 @@
 				<a href="">Press</a>
 				<a href="">Contact</a>
 				</div>
+		</nav>
+
+		<nav class="artistsNav">
+			<div id="artistLink">
+			<a href="artists.html">Izachar</a>
+			<div>
 		</nav>
 
 	<div class="header"> 
@@ -110,6 +116,15 @@
 <script>
 function myFunction() {
   var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+function myFunctionA() {
+  var x = document.getElementById("artistLink");
   if (x.style.display === "block") {
     x.style.display = "none";
   } else {

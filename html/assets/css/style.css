@@ -60,7 +60,8 @@ body {
 	color: black;
 }
 
-.secondaryNav {
+.secondaryNav,
+.artistsNav {
 	overflow: hidden;
   background-color: #333;
   position: relative;
@@ -71,7 +72,8 @@ body {
   color: white;
 }
 
-.secondaryNav #myLinks {
+.secondaryNav #myLinks,
+.artistsNav #artistLink {
 	display: none;
 }
 
@@ -85,7 +87,8 @@ body {
   color: white;
 }
 
-.secondaryNav a {
+.secondaryNav a,
+.artistsNav a {
 	color: white;
   padding: 14px 16px;
   text-decoration: none;
