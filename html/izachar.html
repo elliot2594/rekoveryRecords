@@ -7,7 +7,7 @@
 </head>
 <body>
 	<main class="wrapper">
-<div class="content">
+		<div class="content">
 	<div class="navBar">
 		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
 		<img id="mobileCta" class="mobileMenu" src="assets/images/menu.png" alt="Menu">
@@ -15,10 +15,10 @@
 		<nav class="primaryNav">
 				<a href="index.html">Home</a>
 				<a href="shows.html">Shows</a>
-				<a href="javascript:void(0);" class="artistMenu" onclick="myFunctionA()">Artists</a>
+				<a href="javascript:void(0);" class="artistMenu current" onclick="myFunctionA()">Artists</a>
 				<a href="media.html">Media</a>
-				<a href="#" class="current">Press</a>
-				<a href="contact.html">Contact</a>
+				<a href="">Press</a>
+				<a href="">Contact</a>
 		</nav>
 
 		<div class="socials">
@@ -29,30 +29,42 @@
 			<a href="https://www.youtube.com/channel/UCmuWYddl3x-2SA_PJ822fvA" target="_blank"><img src="assets/images/socialMedia/youtube.png"></a>
 		</div>
 	</div>
-
-			<nav class="secondaryNav">
+				<nav class="secondaryNav">
 			<div id="myLinks">
 				<a href="index.html">Home</a>
 				<a href="shows.html">Shows</a>
-				<a href="javascript:void(0);" class="artistMenu" onclick="myFunctionA()">Artists</a>
-				<a href="media.html">Media</a>
-				<a href="#" class="current">Press</a>
-				<a href="contact.html">Contact</a>
+				<a href="#" class="current">Artists</a>
+				<a href="">Media</a>
+				<a href="">Press</a>
+				<a href="">Contact</a>
 				</div>
 		</nav>
 
 		<nav class="artistsNav">
 			<div id="artistLink">
-			<a href="izachar.html">Izachar</a>
+			<a href="artists.html">Izachar</a>
 			<a href="fikir.html">Fikir Amlak</a>
 			<div>
 		</nav>
 
-	<div class="comingSoon">
-			<h1>Coming Soon<h1>
+	<section class="header">
+		<div class="container">
+			<div><h1>Izachar<h1></span></div>
 		</div>	
+	</section>
 
+	<div class="artistContainer">
+		<div class="container">
+			<img src="assets/images/artists/izachar1.JPG">
+		</div>
 
+		<div class="artistBio">
+			<h2>Bio</h2>
+			<p>Izachar is 23 years old and is a Producer/DJ and A&R on Congo Natty's (Rebel MC) new label - Rekovery Records. Coming from Hip-Hop roots, he started producing DnB in 2020, quickly catching the attention of Jungle legend - Congo Natty, who has been giving him guidance alongside the great Ray Keith. Izachar is currently working on a variety of projects to be released throughout the year, so expect some big 2021 movements on Rekovery Records.</p>
+		</div>
+</div>
+
+	
 	<section class="footer">
 		<div class="container">
 			<img src="assets/images/copyright.png">
@@ -60,9 +72,9 @@
 		</div>
 	</section>
 	</div>
-</main>
-	<script>
+	</main>
 
+		<script>
 function myFunction() {
   var x = document.getElementById("myLinks");
   if (x.style.display === "block") {
