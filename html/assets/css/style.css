@@ -41,7 +41,7 @@ body {
 
 .navBar {
 	background-color: #54552b;
-	border-bottom: 0.01rem solid;
+	border-bottom: 0.09rem solid;
 	box-shadow: 0.1rem 0.5rem 0.3rem #3E523E;
 	margin-bottom: 1rem;
 	display: flex;
