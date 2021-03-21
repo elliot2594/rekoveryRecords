@@ -19,6 +19,10 @@ body {
 	 background-color: #000000;  
 }
 
+.header {
+	text-align: center;
+	margin: 0.5rem;
+}
 
 
 .content {
