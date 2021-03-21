@@ -30,8 +30,8 @@ body {
 	 position: relative;
   color: white;
   text-shadow: 0 0 5px #000;
-
 }
+
 
 
 .navBar {
@@ -160,6 +160,12 @@ a {
 .footer {
 	display: flex;
 	justify-content: center;
+	font-size: small;
+}
+
+.footer img {
+	height: 1rem;
+	width: 1rem;
 }
 
 .footer .container {
