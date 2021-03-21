@@ -92,10 +92,6 @@ body {
 	padding: 2rem;
 }
 
-.current {
-  background-color: #4CAF50;
-  color: white;
-}
 
 .secondaryNav #myLinks,
 .artistsNav #artistLink {
@@ -105,11 +101,12 @@ body {
 .secondaryNav a:hover {
   background-color: #ddd;
   color: black;
+
 }
 
 .current {
-  background-color: #4CAF50;
   color: white;
+  border-bottom: 0.2rem solid #4CAF50;
 }
 
 .secondaryNav a,
@@ -215,10 +212,11 @@ a {
 .primaryNav  {
 	display: flex;
 	justify-content: space-around;
-}
+	}
 
 .primaryNav a {
 	margin-left: 1rem;
+	text-decoration: none;
 }
 
 .mobileMenu {
