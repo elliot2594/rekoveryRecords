@@ -93,6 +93,10 @@ body {
 	height: 100vh;
 }
 
+.title {
+	text-align: center;
+}
+
 
 .secondaryNav #myLinks,
 .artistsNav #artistLink {
