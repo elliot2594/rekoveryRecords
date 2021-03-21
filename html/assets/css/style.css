@@ -19,9 +19,14 @@ body {
 	 background-color: #000000;  
 }
 
-.header {
+.header h1{
 	text-align: center;
 	margin: 0.5rem;
+	font-size: large;
+}
+
+.header {
+	margin-top: 2rem;
 }
 
 
@@ -46,10 +51,9 @@ body {
 	position: sticky;
   top: 0;
 }
+
 .artistBio {
-	text-align: center;
-	width: 80%;
-	margin: auto;
+	margin-left: 2rem;
 }
 
 .navBar img {
@@ -80,6 +84,12 @@ body {
   margin-top: -1rem;
   top: 2.3rem;
 
+}
+
+.artistContainer {
+	display: flex;
+	justify-content: center;
+	padding: 2rem;
 }
 
 .current {
@@ -115,14 +125,10 @@ a {
 	color: white;
 }
 
-.artistImage .container img {
-	height: 50%;
-	width: 50%;
+.artistContainer .container img {
+	width: 	100%;
 }
 
-.artistImage {
-	text-align: center;
-}
 
 
 .hero {
