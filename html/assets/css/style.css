@@ -111,7 +111,7 @@ body {
 
 .current {
   color: white;
-  border-bottom: 0.2rem solid #4CAF50;
+  border-bottom: 0.09rem solid #4CAF50;
 }
 
 .secondaryNav a,
@@ -136,7 +136,7 @@ a {
 .hero {
 	display: flex;
 	justify-content: center;
-	border-bottom: 0.1rem solid;
+	border-bottom: 0.09rem solid;
 
 }
 
