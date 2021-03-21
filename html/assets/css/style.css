@@ -53,8 +53,11 @@ body {
 }
 
 .artistBio {
-	margin-left: 2rem;
+	margin-left: 1.5rem;
+	margin-right: 1.5rem;
 }
+
+
 
 .navBar img {
 	height: 1.5rem;
@@ -86,12 +89,7 @@ body {
 
 }
 
-.artistContainer {
-	display: flex;
-	justify-content: center;
-	padding: 2rem;
-	height: 100vh;
-}
+
 
 .title {
 	text-align: center;
@@ -125,6 +123,11 @@ body {
 
 a {
 	color: white;
+}
+
+.artistContainer {
+	margin-right: 1.5rem;
+	margin-left: 1.5rem;
 }
 
 .artistContainer .container img {
@@ -253,6 +256,17 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   z-index: -1;
+}
+.artistBio {
+	margin-left: 2rem;
+}
+
+
+.artistContainer {
+	display: flex;
+	justify-content: center;
+	padding: 2rem;
+	height: 100vh;
 }
 
 .latestMedia .container {
